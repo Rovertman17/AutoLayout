@@ -50,7 +50,7 @@ class LocationsViewController: UIViewController, CLLocationManagerDelegate, MKMa
         
         let region = MKCoordinateRegion(center: location, span: span)
         
-        self.map.setRegion(region, animated: true)
+        self.MKMapView.setRegion(region, animated: true)
         
         
     }

@@ -15,6 +15,7 @@
 		69C5D15A1F28F0D0000246F2 /* SafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C5D1591F28F0D0000246F2 /* SafetyViewController.swift */; };
 		69C5D15C1F28F630000246F2 /* run-from-zombies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C5D15B1F28F630000246F2 /* run-from-zombies.jpg */; };
 		69EFCA571F29201400B0141B /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EFCA561F29201400B0141B /* LocationsViewController.swift */; };
+		69F6B9A31F2A3B29005F233E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F6B9A21F2A3B29005F233E /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		69C5D1591F28F0D0000246F2 /* SafetyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafetyViewController.swift; sourceTree = "<group>"; };
 		69C5D15B1F28F630000246F2 /* run-from-zombies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "run-from-zombies.jpg"; sourceTree = "<group>"; };
 		69EFCA561F29201400B0141B /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		69F6B9A21F2A3B29005F233E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F6B9A31F2A3B29005F233E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +49,7 @@
 			children = (
 				69C5D1441F28E961000246F2 /* AutoLayout */,
 				69C5D1431F28E961000246F2 /* Products */,
+				69F6B9A11F2A3B28005F233E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +75,14 @@
 				69C5D1511F28E961000246F2 /* Info.plist */,
 			);
 			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		69F6B9A11F2A3B28005F233E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69F6B9A21F2A3B29005F233E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
